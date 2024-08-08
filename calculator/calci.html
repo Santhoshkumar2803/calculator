@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calci.css">
+   
+</head>
+<body>
+    
+    <center>
+    <div class="container">
+        <input type="text" id="text" class="display" readonly>
+        <div class="container1">
+          <button class="btn" onclick="appendNumber('1')">1</button>
+          <button class="btn" onclick="appendNumber('2')">2</button>
+          <button class="btnd" onclick="setOperation('+')">+</button>
+          <button class="btn" onclick="appendNumber('3')">3</button>
+          <button class="btn" onclick="appendNumber('4')">4</button>
+          <button class="btnd" onclick="setOperation('-')">-</button>
+          <button class="btn" onclick="appendNumber('5')">5</button>
+          <button class="btn" onclick="appendNumber('6')">6</button>
+          <button class="btnd" onclick="setOperation('*')">*</button>
+          <button class="btn" onclick="appendNumber('7')">7</button>
+          <button class="btn" onclick="appendNumber('8')">8</button>
+          <button class="btnd" onclick="setOperation('/')">/</button>
+          <button class="btn" onclick="appendNumber('9')">9</button>
+          <button class="btn" onclick="appendNumber('0')">0</button>
+          <button class="btne" onclick="calculate('=')">=</button>
+          <button class="btn" onclick="clearDisplay('c')">C</button>
+
+        </div>
+        
+    </div>
+</center>
+<script src="calci.js"></script>
+</body>
+</html>
